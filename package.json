@@ -4,9 +4,7 @@
     "description": "TikTok Scraper & Downloader. Scrape information from User, Trending and HashTag pages and download video posts",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
-    "bin": {
-        "tiktok-scraper": "bin/cli.js"
-    },
+    "bin": "bin/cli.js",
     "files": [
         "build"
     ],
@@ -22,6 +20,7 @@
         "request": "^2.88.0",
         "request-promise": "^4.2.4",
         "socks-proxy-agent": "^5.0.0",
+        "tiktok-scraper": "^1.4.36",
         "yargs": "^14.2.0"
     },
     "devDependencies": {
